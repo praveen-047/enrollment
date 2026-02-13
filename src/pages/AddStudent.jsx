@@ -5,6 +5,12 @@ const AddStudent = () => {
   const[email,setEmail] = useState("")
   const[depertment,setdpt] = useState("")
   const[course,setCourse] = useState("")
+  
+  function handleForm(e){
+    e.preventDefault()
+    let user = {name,email,depertment,course}
+  }
+  
   return (
     <>
       <center>Add Student</center>
