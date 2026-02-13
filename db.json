@@ -1,7 +1,25 @@
 {
-    "users":[
-        {
-            
-        }
-    ]
+  "users": [
+    {
+      "id": "f96b",
+      "name": "praveen",
+      "email": "praveen636317@gmail.com",
+      "depertment": "engg",
+      "course": "cse"
+    },
+    {
+      "id": "9b55",
+      "name": "dhanush",
+      "email": "dhanush@gmail.com",
+      "depertment": "enggc",
+      "course": "cse"
+    },
+    {
+      "id": "9bfd",
+      "name": "kalyan",
+      "email": "k@gmail.com",
+      "depertment": "engg",
+      "course": "ece"
+    }
+  ]
 }
