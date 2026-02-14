@@ -2,9 +2,54 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
+/* add student */
+form input{
+  padding: 5px 7px;
+  border: 2px solid rgba(0, 0, 0, 0.523);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+form button{
+  border: 0px;
+  padding: 5px 10px;
+  font-optical-sizing: 15px;
+  border-radius: 5px;
+}
 
 
 /* view-students */
+h1{
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.view-container{
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.view-card{
+  width: 300px;
+  background-color: antiquewhite;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.view-card p{
+  font-size: 15px;
+}
+.view-card button{
+  border: 0px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}

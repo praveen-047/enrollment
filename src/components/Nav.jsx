@@ -14,8 +14,8 @@ const Nav = ()=>{
           </div>
         </div>
         <div className="right">
-          <Link to={'/addstudent'}><h2>Add</h2></Link>
-          <Link to={'/viewstudent'}><h2>view</h2></Link>
+          <Link className="nav-link" to={'/addstudent'}><h2>Add</h2></Link>
+          <Link className="nav-link" to={'/viewstudent'}><h2>view</h2></Link>
         </div>
       </div>
     </>
